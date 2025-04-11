@@ -123,7 +123,7 @@ class LeadProcessor(QThread):
                     # Process each row starting from index 1 (after headers)
 
                     if self.first_run:
-                        sb.open("https://www.amazon.com/")
+                        sb.open("http://vine.amazon.com")
                         input("Press Enter to continue...")
                         self.first_run = False
                     for row_idx in range(len(all_values) - 1, 0, -1):
