@@ -23,11 +23,14 @@ A desktop application for automating Amazon product reviews using data from Goog
 
 1. Clone this repository or download the source code
 2. Install the required dependencies (For very first time):
+
 For windows:
+
 ```bash
 pip install pyqt5 gspread google-auth seleniumbase
 ```
 For Mac:
+
 ```bash
 pip3 install pyqt5 gspread google-auth seleniumbase
 ```
